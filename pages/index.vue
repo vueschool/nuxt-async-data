@@ -24,6 +24,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import axios from 'axios'
 
 export default {
   components: {
@@ -46,11 +47,9 @@ export default {
     }
   },
   mounted () {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    axios.get('https://jsonplaceholder.typicode.com/posts')
       .then(response => {
-        response.json().then(posts => {
-          this.posts = posts
-        })
+        this.posts = response.data
       })
   }
 }
