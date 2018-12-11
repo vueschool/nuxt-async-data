@@ -2,7 +2,7 @@
   <div class="container">
     <article>
       <h1 class="title">{{post.title}}</h1>
-      <p>{{post.content}}</p>
+      <p>{{post.body}}</p>
     </article>
   </div>
 </template>
@@ -22,8 +22,17 @@
     },
     data () {
       return {
-        id: this.$route.params.id
+        id: this.$route.params.id,
+        post: {}
       }
+    },
+    mounted () {
+      fetch(`https://jsonplaceholder.typicode.com/posts/${this.id}`)
+        .then(response => {
+          response.json().then(post => {
+            this.post = post
+          })
+        })
     }
   }
 </script>
