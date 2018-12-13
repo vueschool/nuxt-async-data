@@ -52,6 +52,13 @@ module.exports = {
   ],
 
   /*
+  ** axios configuration
+  */
+  axios: {
+    baseURL: 'https://jsonplaceholder.typicode.com'
+  },
+
+  /*
   ** Build configuration
   */
   build: {

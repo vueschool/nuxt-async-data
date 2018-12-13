@@ -26,7 +26,7 @@
       }
     },
     async asyncData ({params, $axios}) {
-      let post = await $axios.$get(`https://jsonplaceholder.typicode.com/posts/${params.id}`)
+      let post = await $axios.$get(`posts/${params.id}`)
       return {post}
     }
   }
