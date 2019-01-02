@@ -1,30 +1,29 @@
-# Nuxt.js Fundamentals
+# Async Data with Nuxt.js
 
-[![](https://vueschool.s3.amazonaws.com/4d844f1712a19f3de8c4fed7558ee654/nuxt-fundamentals.png)](https://vueschool.io/courses/nuxtjs-fundamentals)
+[![](https://vueschool.s3.amazonaws.com/d45176c7b195ea2779b8624ba50e78b6/async-data-with-nuxtjs.png)](https://vueschool.io/courses/async-data-with-nuxtjs)
 
-This repository contains the example code for the [Nuxt.js Fundamentals](https://vueschool.io/courses/nuxtjs-fundamentals) course.
+This repository contains the example code for the [Async Data with Nuxt.js](https://vueschool.io/courses/async-data-with-nuxtjs) course.
 
 
-Nuxt.js is a framework for creating Vue.js applications. Its goal is to help Vue developers take advantage of top-notch technologies and features in a fast, easy and organized way. 
+It can be difficult and cumbersome to set up a custom system to fetch asynchronous data before you serve your application to your users and render everything on the server-side. Since JavaScript was designed to mainly run client-side, it comes with a few unwanted traits.
 
-**It is easy to get started with Nuxt.js!**
+Nuxt.js has made it breathtakingly easy to fetch asynchronous data and render our entire application on the server-side before we serve it to our users. In this course, you will learn a few different methods to fetch asynchronous data and what to be careful with. Secondly, you'll learn how to fetch asynchronous data and render your Nuxt applications server-side.
 
-The course covers the fundamentals of Nuxt.js and serves as a platform for everyone who wants to get started with Nuxt.
+**Server-side rendering brings invaluable performance and SEO benefits.**
 
-You **do not need to know Nuxt.js** to take this course, but you **should know [Vue.js](https://vueschool.io/courses)**.
+Even though it is impressively smooth to fetch and render async data server-side with Nuxt.js, you need to know the basics of Nuxt. If you do not, we recommend our [Nuxt.js Fundamanetals](https://vueschool.io/courses/nuxtjs-fundamentals) course.
 
 After this course, you will be familiar with:
-- What Nuxt.js is and how it can help you and your projects
-- How to scaffold new Projects with their `create-nuxt-app` tool
-- The structure of a Nuxt application
-- Creating and navigating between pages
-- Setting up meta tags for improved SEO
-- Building and deploying a Nuxt.js App
-- How to deploy your apps to Heroku and Netlify
+- How to best fetch asynchronous data according to your applications needs
+- The caveats of the `fetch` method when it comes to server-side rendering
+- The benefits of using Nuxt modules
+- How to extend the Nuxt.js framework with plugins
+- Fetching async data and render your Vuex store server-side
+- Impressed with how easy it is to squeeze out extra performance and SEO of your JavaScript applications with Nuxt.js
 
 This course is made **together** with the **Chopin brothers** (founders of [Nuxt.js](https://nuxtjs.org/)) and core member **Alexander Lichter**.
 
-The course is free. [Enroll at Vue School!](https://vueschool.io/courses/nuxtjs-fundamentals)
+[Click here to watch the course](https://vueschool.io/courses/async-data-with-nuxtjs)
 
 
 ---
