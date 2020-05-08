@@ -21,7 +21,7 @@ After this course, you will be familiar with:
 - Fetching async data and render your Vuex store server-side
 - Impressed with how easy it is to squeeze out extra performance and SEO of your JavaScript applications with Nuxt.js
 
-This course is made **together** with the **Chopin brothers** (founders of [Nuxt.js](https://nuxtjs.org/)) and core member **Alexander Lichter**.
+This course is made **together** with core member **Alexander Lichter**.
 
 [Click here to watch the course](https://vueschool.io/courses/async-data-with-nuxtjs)
 
